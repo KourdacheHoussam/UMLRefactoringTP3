@@ -1,15 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: %pluginName
-Bundle-SymbolicName: UMLRefactoringTP3;singleton:=true
+Bundle-Name: UMLRefactoringTP3
+Bundle-SymbolicName: UMLRefactoringTP3; singleton:=true
 Bundle-Version: 0.1.0.qualifier
-Bundle-ClassPath: .
-Bundle-Vendor: %providerName
-Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.emf.ecore;visibility:=reexport,
- org.eclipse.emf.ecore.xmi;visibility:=reexport,
- UMLRefactoringTP3,
- UMLRefactoringTP3
-Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.emf.ecore
