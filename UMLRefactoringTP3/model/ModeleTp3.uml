@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA">
+  <uml:Model xmi:id="_yznMUIOmEeSuWoxmwMJklA" name="ModeleTp3" URI="http:///ModeleTp3.ecore">
+    <packagedElement xmi:type="uml:Class" xmi:id="_yznMUYOmEeSuWoxmwMJklA" name="Int"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yznMUoOmEeSuWoxmwMJklA" name="pack1" URI="http:///ModeleTp3/pack1.ecore">
+      <packagedElement xmi:type="uml:Class" xmi:id="_yznMU4OmEeSuWoxmwMJklA" name="B"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yznMVIOmEeSuWoxmwMJklA" name="A">
+        <ownedAttribute xmi:id="_yznMVYOmEeSuWoxmwMJklA" name="t" type="_yznMUYOmEeSuWoxmwMJklA" aggregation="composite" association="_yznMVoOmEeSuWoxmwMJklA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yznMVoOmEeSuWoxmwMJklA" memberEnd="_yznMVYOmEeSuWoxmwMJklA _yznMV4OmEeSuWoxmwMJklA">
+        <ownedEnd xmi:id="_yznMV4OmEeSuWoxmwMJklA" type="_yznMVIOmEeSuWoxmwMJklA" association="_yznMVoOmEeSuWoxmwMJklA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yznMWIOmEeSuWoxmwMJklA" name="pack2" URI="http:///ModeleTp3/pack2.ecore">
+      <packagedElement xmi:type="uml:Class" xmi:id="_yznMWYOmEeSuWoxmwMJklA" name="C"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yznMWoOmEeSuWoxmwMJklA" name="D">
+        <generalization xmi:id="_yznMW4OmEeSuWoxmwMJklA" general="_yznMWYOmEeSuWoxmwMJklA"/>
+        <ownedOperation xmi:id="_yznMXIOmEeSuWoxmwMJklA" name="foo" visibility="public">
+          <ownedParameter xmi:id="_yznMXYOmEeSuWoxmwMJklA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yznMXoOmEeSuWoxmwMJklA" name="E">
+        <ownedAttribute xmi:id="_yznMX4OmEeSuWoxmwMJklA" name="x" type="_yznMUYOmEeSuWoxmwMJklA" aggregation="composite" association="_yznMYIOmEeSuWoxmwMJklA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yznMYIOmEeSuWoxmwMJklA" memberEnd="_yznMX4OmEeSuWoxmwMJklA _yznMYYOmEeSuWoxmwMJklA">
+        <ownedEnd xmi:id="_yznMYYOmEeSuWoxmwMJklA" type="_yznMXoOmEeSuWoxmwMJklA" association="_yznMYIOmEeSuWoxmwMJklA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_yznMYoOmEeSuWoxmwMJklA">
+      <eAnnotations xmi:id="_yznMY4OmEeSuWoxmwMJklA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Ecore:EPackage xmi:id="_yznMZIOmEeSuWoxmwMJklA" base_Package="_yznMUIOmEeSuWoxmwMJklA" nsPrefix="ModeleTp3"/>
+  <Ecore:EClass xmi:id="_yznMZYOmEeSuWoxmwMJklA" base_Class="_yznMUYOmEeSuWoxmwMJklA"/>
+  <Ecore:EPackage xmi:id="_yznMZoOmEeSuWoxmwMJklA" base_Package="_yznMUoOmEeSuWoxmwMJklA" nsPrefix="ModeleTp3.pack1"/>
+  <Ecore:EClass xmi:id="_yznMZ4OmEeSuWoxmwMJklA" base_Class="_yznMU4OmEeSuWoxmwMJklA"/>
+  <Ecore:EClass xmi:id="_yznMaIOmEeSuWoxmwMJklA" base_Class="_yznMVIOmEeSuWoxmwMJklA"/>
+  <Ecore:EReference xmi:id="_yznMaYOmEeSuWoxmwMJklA" base_Property="_yznMVYOmEeSuWoxmwMJklA"/>
+  <Ecore:EPackage xmi:id="_yznMaoOmEeSuWoxmwMJklA" base_Package="_yznMWIOmEeSuWoxmwMJklA" nsPrefix="ModeleTp3.pack2"/>
+  <Ecore:EClass xmi:id="_yznMa4OmEeSuWoxmwMJklA" base_Class="_yznMWYOmEeSuWoxmwMJklA"/>
+  <Ecore:EClass xmi:id="_yznMbIOmEeSuWoxmwMJklA" base_Class="_yznMWoOmEeSuWoxmwMJklA"/>
+  <Ecore:EOperation xmi:id="_yznMbYOmEeSuWoxmwMJklA" base_Operation="_yznMXIOmEeSuWoxmwMJklA"/>
+  <Ecore:EClass xmi:id="_yznMboOmEeSuWoxmwMJklA" base_Class="_yznMXoOmEeSuWoxmwMJklA"/>
+  <Ecore:EReference xmi:id="_yznMb4OmEeSuWoxmwMJklA" base_Property="_yznMX4OmEeSuWoxmwMJklA"/>
+</xmi:XMI>
