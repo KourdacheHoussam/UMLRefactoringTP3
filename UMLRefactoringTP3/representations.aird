@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" xmlns:genmodel_1="http://www.eclipse.org/uml2/2.2.0/GenModel" xmlns:mreg="http://www.eclipse.org/ocl/1.0/ModelRegistry" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xmi:id="_NQ2doIT7EeSglN9tuHJADw" version="8.1.1">
+  <models xmi:type="ecore:EPackage" href="model/ModeleTp3.ecore#/"/>
+  <models xmi:type="ecore:EPackage" href="model/UML.ecore#/"/>
+  <models xmi:type="ecore:EPackage" href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <models xmi:type="genmodel:GenModel" href="model/UML.genmodel#/"/>
+  <models xmi:type="genmodel_1:GenModel" href="model/tp3.genmodel#/"/>
+  <models xmi:type="notation:Diagram" href="model/tp3.notation#_Yv4UcF3lEeSQ2MxWsiqfQA"/>
+  <models xmi:type="uml:Model" href="model/tp3.uml#_YvKiwF3lEeSQ2MxWsiqfQA"/>
+  <models xmi:type="mreg:ModelRegistrySettings" href=".settings/org.eclipse.ocl.modelregistry#/"/>
+</viewpoint:DAnalysis>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated tp3 -->
+      <package
+            uri="http:///ModeleTp3.ecore"
+            class="ModeleTp3.ModeleTp3Package"
+            genModel="model/tp3.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated tp3 -->
+      <package
+            uri="http:///ModeleTp3/pack1.ecore"
+            class="ModeleTp3.pack1.Pack1Package"
+            genModel="model/tp3.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated tp3 -->
+      <package
+            uri="http:///ModeleTp3/pack2.ecore"
+            class="ModeleTp3.pack2.Pack2Package"
+            genModel="model/tp3.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated uml -->
+      <package
+            uri="http://www.eclipse.org/uml2/5.0.0/UML"
+            class="uml.UmlPackage"
+            genModel="model/uml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated eUML -->
+      <package
+            uri="http://www.eclipse.org/emf/2002/Ecore"
+            class="ecore.EcorePackage"
+            genModel="model/eUML.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated uml -->
+      <parser
+            type="uml"
+            class="uml.util.UmlResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

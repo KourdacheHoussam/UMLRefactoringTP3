@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="lib" path="C:/Users/Housssam/Desktop/Eclipse JEE/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.10.1.v20140901-1043.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Housssam/Desktop/Eclipse JEE/eclipse/plugins/org.eclipse.emf.ecore.xmi-2.9.1-v20131212-0545.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Housssam/Desktop/Eclipse JEE/eclipse/plugins/org.eclipse.uml2.uml.ecore.importer.source_2.4.0.v201005031530.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Housssam/Downloads/maven-oaw-plugin-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
