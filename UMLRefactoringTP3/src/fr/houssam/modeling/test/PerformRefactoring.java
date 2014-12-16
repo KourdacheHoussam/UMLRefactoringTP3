@@ -11,6 +11,7 @@ import org.eclipse.emf.ecore.xmi.impl.XMLMapImpl;
 
 import ModeleTp3.ModeleTp3Package;
 
+import org.eclipse.uml2.uml.*;
 public class PerformRefactoring {
 	/**
 	 * Charger et renvoyer le modele
@@ -58,7 +59,7 @@ public class PerformRefactoring {
 		
 		
 		//Instruction récupérant le modèle sous forme d'arbre �  partir de la classe racine "Model"
-		ModeleTp3Package umlP = (ModeleTp3Package) resource.getContents().get(0);
+		Model umlP = (Model) resource.getContents().get(0);
 		
 		
 		String nomModele=  umlP.getName();
